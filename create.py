@@ -3,21 +3,26 @@ import sys # Para manejo de I/O
 import webbrowser # Para manejo de browser
 from selenium import webdriver
 
-# Browser driver name & path vars
-# browserName = "chrome"
-
-driver_path = "/Users/carlos/Documents/SOFTWARE-DEVELOPMENT/DRIVERS/CHROME/chromedriver"
-browser = webdriver.Chrome(executable_path=driver_path)
-# browser = webdriver.Chrome(driver_path)
-browser.get('https://github.com/login')
-
-project_path = "/Users/carlos/Documents/SOFTWARE-DEVELOPMENT/PYTHON/initDevDeployment/"
 webScrappingName = "https://github.com/login"
-
 usr = "capereiro@gmail.com"
 psw = "digital911.Com"
 
+#  Browser driver name & path vars
+# browserName = "chrome"
 
+# Para utilizar en macbook 15
+driver_path = "/Users/carlospereiro/Documents/SOFTWARE-DEVELOPMENT/DRIVERS/CHROME/chromedriver"
+# Para utilizar en iMac
+# driver_path = "/Users/carlos/Documents/SOFTWARE-DEVELOPMENT/DRIVERS/CHROME/chromedriver"
+
+browser = webdriver.Chrome(executable_path=driver_path)
+# browser = webdriver.Chrome(driver_path)
+browser.get(webScrappingName)
+
+# Para utilizar en iMac
+# project_path = "/Users/carlos/Documents/SOFTWARE-DEVELOPMENT/PYTHON/initDevDeployment/"
+# Para utilizar en macbook 15
+project_path = "/Users/carlospereiro/Documents/SOFTWARE-DEVELOPMENT/CARLOS/PYTHON/initDevDeployment/"
 
 
 
