@@ -18,3 +18,17 @@ Todos los shell scripts comienzan con #!/bin/bash y determina que el interprete 
 Para hacer "ejecutable el shell script primero hay que avisarle al Sist Operativo: chmod +x ./nombre.sh
 
 Para ejecutar los shell scripts: ./nombre.sh
+
+KalleHallden Original Project
+https://github.com/KalleHallden/ProjectInitializationAutomation.git
+
+
+TODO LIST
+----------
+
+1. create my project folder. ~~> OK
+2. open chrome browser tab. ~~> OK
+3. login web site. ~~> OK
+4. 
+
+
