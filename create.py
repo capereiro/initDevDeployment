@@ -19,8 +19,9 @@ project_path = os.getenv("FILEPATH")
 def create():
     project_name = str(sys.argv[1])
     
-    # user = Github(usr, psw).get_user()
-    # repo = user.create_repo(project_name)
+    user = Github(usr, psw).get_user()
+    repo = user.create_repo(project_name)
+
     os.makedirs(project_path + str(project_name))
 
     print('----------------------------------------------------------------')
@@ -31,3 +32,4 @@ def create():
 
 if __name__ == "__main__":
     create()
+

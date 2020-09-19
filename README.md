@@ -1,16 +1,14 @@
-Ver mis anotaciones en: 
+# Automatización inicial proyectos Python
+### Introducción
 
-https://github.com/kalleHallden/ProjectInitializationAutomation
+Comencé este proyecto para profundizar conocimientos de Python y bash gracias a una publicación de @KalleHallden en su [proyecto Github!](https://github.com/KalleHallden/ProjectInitializationAutomation.git)
 
-Script in bash: muestra distintas formas de carga de script en bash
-https://www.youtube.com/watch?v=F-gskSl4pwQ
+> Material de soporte
+ - [x] Script in bash: muestra distintas formas de carga de [script en bash](https://www.youtube.com/watch?v=F-gskSl4pwQ)
+ - [x] Selenium driver: para manejo avanzado de [scrapping](https://selenium-python.readthedocs.io/getting-started).
 
-Selenium driver: para manejo avanzado de scrapping 
-https://selenium-python.readthedocs.io/getting-started.
 Adicionalmente a la instalación (pip install selenium) hay que utilizar chromedriver() para ejecutar funciones avanzadas.
 html#selenium-remote-webdriver
-
-Una opción mas sencilla es utilizar la librería estándar webbrowser: https://python-para-impacientes.blogspot.com/2015/11/abrir-paginas-web-en-un-navegador-con.html
 
 
 -------------------------
