@@ -4,15 +4,17 @@
 Comencé este proyecto para profundizar conocimientos de Python y bash gracias a una publicación de @KalleHallden en su [proyecto Github!](https://github.com/KalleHallden/ProjectInitializationAutomation.git)
 
 > Material de soporte
- - [x] Script in bash: muestra distintas formas de carga de [script en bash](https://www.youtube.com/watch?v=F-gskSl4pwQ)
- - [x] Selenium driver: para manejo avanzado de [scrapping](https://selenium-python.readthedocs.io/getting-started).
+> - [x] Script in bash: muestra distintas formas de carga de [script en bash](https://www.youtube.com/watch?v=F-gskSl4pwQ). Adicionalmente a la instalación (pip install selenium) hay que utilizar chromedriver() para ejecutar funciones avanzadas.
+> - [x] Selenium driver: para manejo avanzado de [scrapping](https://selenium-python.readthedocs.io/getting-started).
 
-Adicionalmente a la instalación (pip install selenium) hay que utilizar chromedriver() para ejecutar funciones avanzadas.
-html#selenium-remote-webdriver
-
-
--------------------------
-.env CONFIGURACION DE VARIABLES DE ENTORNO LOCALES
+### TODO List
+```bash
+ 1. [x] Clonar proyecto git clone "xxxxx"
+ 2. [x] Acceder al directorio: cd nombreDirectorio
+ 3. [x] Instalar dependencias: pip install -r requirements.txt
+ 4. [x] Crear archivo de entorno: touch .env
+ 5. [x] completar el archivo .env como se muestra mas abajo
+```
 
 chromeDriver() path
 # Para utilizar en macbook 15
@@ -33,19 +35,4 @@ Todos los shell scripts comienzan con #!/bin/bash y determina que el interprete 
 Para hacer "ejecutable el shell script primero hay que avisarle al Sist Operativo: chmod +x ./nombre.sh
 
 Para ejecutar los shell scripts: ./nombre.sh
-
-KalleHallden Original Project
-https://github.com/KalleHallden/ProjectInitializationAutomation.git
-
-
-
-
-TODO LIST
-----------
-
-1. create my project folder. ~~> OK
-2. open chrome browser tab. ~~> OK
-3. login web site. ~~> OK
-4. 
-
 
